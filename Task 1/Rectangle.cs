@@ -13,14 +13,14 @@ namespace Task_1
 
         public double Length
         {
-            get { return length; }
-            set {  length = value; }
+            get =>  length; 
+            set =>  length = value; 
         }
 
         public double Width
         {
-            get { return width; }
-            set { width = value; }
+            get => width; 
+            set => width = value; 
         }
 
         public double GetArea() => length * width;
